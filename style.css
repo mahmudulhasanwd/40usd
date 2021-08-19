@@ -3988,7 +3988,7 @@ input::placeholder {
     background-color: #30475D;
     border-radius: 6px;
     padding: 10px 9px;
-    margin: 0px 5px;
+    margin: 0px 3px;
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
@@ -4025,6 +4025,7 @@ input::placeholder {
     border-radius: 7px;
     margin-bottom: 10px;
     margin-right: 9px;
+    font-size: 15px;
 }
 
 .table-profile-work {
@@ -4228,7 +4229,7 @@ input::placeholder {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 9;
+    z-index: 9999;
 }
 
 .custom-sidebar-new {
@@ -4274,13 +4275,17 @@ input::placeholder {
     border-bottom: 0;
 }
 
-.tabses {
+/* .tabses {
     display: none;
-}
+} */
 
 .exit img {
     display: inline-block;
     width: 16px;
+}
+
+.custom-sidebar-new .sidebar-logo {
+    display: none;
 }
 
 
